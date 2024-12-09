@@ -1,0 +1,264 @@
+@font-face { 
+    font-family: "Dancing Script"; 
+    src: url("../font/DancingScript-VariableFont_wght.ttf"); 
+    }
+
+
+
+/*HOME*/
+#wrapper {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-right: 30px;
+    min-width: 600px;
+}
+#wrapper header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+#wrapper article {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 600px;
+    text-align: left;
+  }
+  
+#wrapper aside {
+  
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 600px;
+  }
+  
+#wrapper  footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+.achtung{
+    color: rgb(156, 45, 58);
+}
+
+/*für pseudolink siehe unter planet*/
+
+
+.quiz .pseudolink span{
+    color: #3c054f;
+    cursor:url('../img/bild2.png'), auto;
+}
+
+/*QUIZ*/
+.quiz{
+    padding:10px;
+}
+
+/*FAKTENGRID*/
+
+#faktengrid{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-right: 30px;
+    min-width: 600px;
+}
+
+/*HEADER*/
+.headerbild{
+    width:20px;
+    height:auto;
+}
+
+.navigation {
+
+    font-weight: bold;
+    list-style: none;
+    display:flex;
+    flex-direction: row;     
+}
+
+.navigation li{
+    padding-right: 20px;
+
+}
+
+
+
+/*LINKS*/
+
+.aktiv {
+    color: rgb(13, 150, 175);
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: #000;
+}
+
+a:hover {
+    color: rgb(196, 76, 174);
+    cursor:url('../img/bild2.png'), auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*BODY*/
+
+body{
+    text-align: center;
+}
+
+.schön{
+    font-family: 'Dancing Script','Helvetica',cursive;
+    text-align: center;
+
+}
+
+
+/*SEITE 3*/
+
+.Inhaltsverzeichnis{
+  
+    margin: 50px;
+}
+.Inhaltsverzeichnis ul{
+    list-style: none;
+}
+
+.nixda{
+    opacity: 0;
+    transition: opacity 2s;
+}
+.nixda:hover{
+opacity: 100;
+}
+
+.tollerText{
+  
+    margin: 100px;
+
+}
+
+#text3{
+    margin:100px;
+    border: thick double #32a1ce;
+}
+
+/*für container siehe unter planeten*/
+
+.container2 p{
+    padding-right: 20px;
+    padding-left: 80px;
+}
+
+
+.container2 #sticky{
+    position:sticky;
+    top:0;
+    float:left;
+    padding-left: 10px;;
+}
+
+/*FOOTER*/
+
+footer li{
+    list-style: none;
+}
+
+footer ul img{
+    height:30px;
+    width:30px; 
+    align-items: left;
+}
+
+footer{
+    text-align: flex-end;
+}
+
+*{
+    cursor:url('../img/schafi.png'), auto;
+}
+
+.clearfix {
+    
+    display: flex;
+    clear: both;
+  }
+
+/*PLANETEN*/
+
+
+
+.planet{
+    width: 50px;
+    height: auto;
+    transition: transform 2s;
+}
+
+.neplanet{
+    width: 50px;
+    height: auto;
+}
+
+
+
+.planet:hover{
+    cursor:url('../img/bild2.png'), auto;
+    transform: scale(2) rotate(360deg);
+    
+}
+
+.Platzhalterbild{
+    width: 400px;
+    height:auto;
+    display: flex;
+    float: right;
+
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+}
+
+.container>div {
+
+    padding: 40px;
+}
+
+
+.pseudolink:hover{
+    cursor:url('../img/bild2.png'), auto;
+    
+}
+
+.pseudolink .achtung{
+    cursor:url('../img/bild2.png'), auto;
+}
+
+
+.normal{
+    color: #000;
+}
+
+
+
+
